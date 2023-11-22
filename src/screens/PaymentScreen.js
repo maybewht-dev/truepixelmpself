@@ -16,7 +16,7 @@ export default function CompleteOrderScreen(props) {
             variant="h3"
             component="h3"
           >
-            Please follow the instruction on the PIN pad
+            приготовьте qr тру карты
           </Typography>
           <CircularProgress />
         </Box>
@@ -28,7 +28,7 @@ export default function CompleteOrderScreen(props) {
           color="primary"
           className={styles.largeButton}
         >
-          Complete Order
+          готово
         </Button>
       </Box>
     </Box>

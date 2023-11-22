@@ -34,7 +34,7 @@ export default function CompleteOrderScreen(props) {
                 variant="h3"
                 component="h3"
               >
-                Your order has been placed
+                мы отправили твой заказ
               </Typography>
               <Typography
                 gutterBottom
@@ -42,7 +42,7 @@ export default function CompleteOrderScreen(props) {
                 variant="h1"
                 component="h1"
               >
-                Thank you!
+                успешно!
               </Typography>
               <Typography
                 gutterBottom
@@ -50,7 +50,7 @@ export default function CompleteOrderScreen(props) {
                 variant="h3"
                 component="h3"
               >
-                Your order number is {newOrder.number}
+                номер твоего заказа {newOrder.number}
               </Typography>
             </>
           )}
@@ -63,7 +63,7 @@ export default function CompleteOrderScreen(props) {
           color="primary"
           className={styles.largeButton}
         >
-          Order Again
+          следующий клиент
         </Button>
       </Box>
     </Box>

@@ -14,7 +14,7 @@ const data = {
     },
     {
       category: 'Beverages',
-      name: 'Vanill Shake',
+      name: 'grimasik Shake',
       price: 1.5,
       calorie: 360,
       image: '/images/t-mcdonalds-Vanilla-McCafe-Shake-Medium.jpg',

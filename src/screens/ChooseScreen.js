@@ -31,7 +31,7 @@ export default function HomeScreen(props) {
             variant="h3"
             component="h3"
           >
-            Where will you be eating today?
+            где будем есть?
           </Typography>
           <Box className={styles.cards}>
             <Card className={[styles.card, styles.space]}>
@@ -49,7 +49,7 @@ export default function HomeScreen(props) {
                     color="textPrimary"
                     component="p"
                   >
-                    Eat In
+                   за столиком
                   </Typography>
                 </CardContent>
               </CardActionArea>
@@ -69,7 +69,7 @@ export default function HomeScreen(props) {
                     color="textPrimary"
                     component="p"
                   >
-                    Take Out
+                    с собой
                   </Typography>
                 </CardContent>
               </CardActionArea>

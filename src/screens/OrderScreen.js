@@ -136,8 +136,8 @@ export default function OrderScreen(props) {
               className={styles.largeButton}
             >
               {orderItems.find((x) => x.name === product.name)
-                ? 'Remove From Order'
-                : 'Cancel'}
+                ? 'убрать из заказа'
+                : 'отменить'}
             </Button>
 
             <Button
@@ -147,7 +147,7 @@ export default function OrderScreen(props) {
               size="large"
               className={styles.largeButton}
             >
-              ADD To Order
+              добавить
             </Button>
           </Box>
         </Dialog>
@@ -184,7 +184,7 @@ export default function OrderScreen(props) {
               variant="h2"
               component="h2"
             >
-              {categoryName || 'Main Menu'}
+              {categoryName || 'главное меню'}
             </Typography>
 
             <Grid container spacing={1}>
@@ -246,7 +246,7 @@ export default function OrderScreen(props) {
       <Box>
         <Box>
           <Box className={[styles.bordered, styles.space]}>
-            My Order - {orderType} | Tax: ${taxPrice} | Total: ${totalPrice} |
+            мой заказ - {orderType} | кешбек: ${taxPrice} | итого: ${totalPrice} |
             Items: {itemsCount}
           </Box>
           <Box className={[styles.row, styles.around]}>
@@ -259,7 +259,7 @@ export default function OrderScreen(props) {
               color="primary"
               className={styles.largeButton}
             >
-              Cancel Order
+              отменить заказ
             </Button>
 
             <Button
@@ -269,7 +269,7 @@ export default function OrderScreen(props) {
               disabled={orderItems.length === 0}
               className={styles.largeButton}
             >
-              Done
+              готово
             </Button>
           </Box>
         </Box>

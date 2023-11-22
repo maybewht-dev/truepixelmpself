@@ -46,7 +46,7 @@ function App() {
   return (
     <BrowserRouter>
       <Helmet>
-        <title>Self-Order Kiosk</title>
+        <title>truepixel openpos core</title>
       </Helmet>
 
       <ThemeProvider theme={theme}>

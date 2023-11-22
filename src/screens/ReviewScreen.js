@@ -98,8 +98,8 @@ export default function ReviewScreen(props) {
               className={styles.largeButton}
             >
               {orderItems.find((x) => x.name === product.name)
-                ? 'Remove From Order'
-                : 'Cancel'}
+                ? 'убрать из заказа'
+                : 'отмена'}
             </Button>
 
             <Button
@@ -109,7 +109,7 @@ export default function ReviewScreen(props) {
               size="large"
               className={styles.largeButton}
             >
-              ADD To Order
+              добавить
             </Button>
           </Box>
         </Dialog>
@@ -121,7 +121,7 @@ export default function ReviewScreen(props) {
             variant="h3"
             component="h3"
           >
-            Review my {orderType} order
+            мой заказ {orderType}
           </Typography>
         </Box>
 
@@ -172,8 +172,8 @@ export default function ReviewScreen(props) {
       <Box>
         <Box>
           <Box className={[styles.bordered, styles.space]}>
-            My Order - {orderType === 'takeout' ? 'Take out' : 'Eat in'} | Tax:
-            ${taxPrice} | Total: ${totalPrice} | Items: {itemsCount}
+            мой заказ - {orderType === 'takeout' ? 'с собой' : 'за столиком'} | кешбек:
+            ${taxPrice} | итого: ${totalPrice} | позиций: {itemsCount}
           </Box>
           <Box className={[styles.row, styles.around]}>
             <Button
@@ -184,7 +184,7 @@ export default function ReviewScreen(props) {
               color="primary"
               className={styles.largeButton}
             >
-              Back
+              назад
             </Button>
 
             <Button
@@ -194,7 +194,7 @@ export default function ReviewScreen(props) {
               disabled={orderItems.length === 0}
               className={styles.largeButton}
             >
-              Proceed To Checkout
+              перейти к оплате
             </Button>
           </Box>
         </Box>

@@ -33,14 +33,14 @@ export default function HomeScreen(props) {
           variant="h3"
           component="h3"
         >
-          Select payment type
+          выбери тип оплаты
         </Typography>
         <Box className={styles.cards}>
           <Card className={[styles.card, styles.space]}>
             <CardActionArea onClick={() => selectHandler('Pay here')}>
               <CardMedia
                 component="img"
-                alt="Pay here"
+                alt="тру картой"
                 image="/images/payhere.png"
                 className={styles.media}
               />
@@ -51,7 +51,7 @@ export default function HomeScreen(props) {
                   color="textPrimary"
                   component="p"
                 >
-                  PAY HERE
+                  тру картой
                 </Typography>
               </CardContent>
             </CardActionArea>
@@ -71,7 +71,7 @@ export default function HomeScreen(props) {
                   color="textPrimary"
                   component="p"
                 >
-                  AT COUNTER
+                  на кассе
                 </Typography>
               </CardContent>
             </CardActionArea>

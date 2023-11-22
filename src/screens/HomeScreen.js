@@ -11,20 +11,18 @@ export default function HomeScreen(props) {
         <Box className={[styles.root, styles.red]}>
           <Box className={[styles.main, styles.center]}>
             <Typography variant="h6" component="h6">
-              Fast & Easy
+              закажи здесь
             </Typography>
             <Typography variant="h1" component="h1" className={styles.bold}>
-              Order <br />
-              & pay
-              <br />
-              here
+              тру <br />
+              кафе
             </Typography>
             <TouchAppIcon fontSize="large"></TouchAppIcon>
           </Box>
           <Box className={[styles.center, styles.green]}>
             <Logo large />
             <Typography variant="h5" component="h5" className={styles.footer}>
-              Touch to start
+              прикоснись для начала
             </Typography>
           </Box>
         </Box>

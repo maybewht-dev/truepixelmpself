@@ -36,7 +36,7 @@ export default function QueueScreen(props) {
           <Grid container spacing={2}>
             <Grid item md={6}>
               <Paper>
-                <h1 className={styles.processing}>In Progress</h1>
+                <h1 className={styles.processing}>выполняем</h1>
                 <List>
                   {queue.inProgressOrders.map((order) => (
                     <ListItem key={order.number}>
@@ -48,7 +48,7 @@ export default function QueueScreen(props) {
             </Grid>
             <Grid item md={6}>
               <Paper>
-                <h1 className={styles.ready}>Now Serving </h1>
+                <h1 className={styles.ready}>готово </h1>
                 <List>
                   {queue.servingOrders.map((order) => (
                     <ListItem key={order.number}>

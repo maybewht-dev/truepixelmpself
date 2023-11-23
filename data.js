@@ -57,10 +57,10 @@ const data = {
     },
     {
       category: 'напитки',
-      name: 'капучино крисмас-стайл',
+      name: 'dolce vita',
       price: 1.5,
       calorie: 410,
-      image: '/images/cappucino-christmas-style.jpg',
+      image: '/images/dolcevita.jpg',
     },
     {
       category: 'напитки',

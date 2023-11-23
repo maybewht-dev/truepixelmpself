@@ -94,7 +94,7 @@ export default function OrderScreen(props) {
           maxWidth="sm"
         >
           <DialogTitle className={styles.center}>
-            Add {product.name}
+            {product.name}
           </DialogTitle>
           <Box className={[styles.row, styles.center]}>
             <Button

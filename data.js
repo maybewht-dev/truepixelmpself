@@ -1,6 +1,6 @@
 const data = {
   categories: [
-    { name: 'крисмас', image: '/images/beverages.jpg' },
+    { name: 'крисмас', image: '/images/beverages.png' },
     { name: 'напитки', image: '/images/drinkyy.png' },
     { name: 'пицца', image: '/images/pizza.png' },
   ],
